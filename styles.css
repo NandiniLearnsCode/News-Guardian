@@ -1,0 +1,54 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    width: 400px; /* Set the width to make the popup wider */
+    height: auto; /* Adjust height as needed */
+    box-sizing: border-box; /* Includes padding in the element's total width and height */
+    position: relative; /* Needed for absolute positioning of the logo */
+}
+
+/* Input field */
+#wordInput {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: calc(100% - 20px); /* Full width minus padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Add and Remove buttons */
+#addWordButton, #removeWordButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#addWordButton:hover, #removeWordButton:hover {
+    background-color: #45a049;
+}
+
+/* Blocked words list */
+#blockedWordsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#blockedWordsList li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Remove button icon */
+.remove-button {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
